@@ -1,4 +1,3 @@
-
 # 🚀 Express TypeScript MongoDB CRUD API
 
 A clean, scalable, and production-ready RESTful API boilerplate built using **Node.js**, **Express.js**, **TypeScript**, **Prisma ORM**, and **MongoDB**. This project provides a robust foundation for building full-stack applications with standardized error handling and database CRUD operations.
@@ -64,6 +63,49 @@ mernBackend/
 
 ---
 
+## 📌 API Endpoints Overview
+
+**Base URL:** `http://localhost:3000/api/v1`
+
+| HTTP Method | Endpoint | Description |
+| --- | --- | --- |
+| `POST` | `/api/v1/users` | Create a new user record |
+| `GET` | `/api/v1/users` | Retrieve all user records |
+| `GET` | `/api/v1/users/:id` | Retrieve a specific user by ID |
+| `PATCH` | `/api/v1/users/:id` | Update an existing user record |
+| `DELETE` | `/api/v1/users/:id` | Delete a specific user record |
+
+---
+
+## 🧪 Postman API Test Results & Screenshots
+
+### 1. Create User (`POST /api/v1/users`)
+
+* **Description:** Creates a new user entry in the database.
+
+
+### 2. Get All Users (`GET /api/v1/users`)
+
+* **Description:** Fetches all recorded users.
+
+
+### 3. Get Single User (`GET /api/v1/users/:id`)
+
+* **Description:** Fetches a user record by their unique ObjectId.
+
+
+### 4. Update User (`PATCH /api/v1/users/:id`)
+
+* **Description:** Updates existing user properties (e.g., `name`, `age`).
+
+
+### 5. Delete User (`DELETE /api/v1/users/:id`)
+
+* **Description:** Deletes a user record permanently from the database.
+
+
+---
+
 ## ⚙️ Quick Start & Setup Guide
 
 ### 1. Repository Setup
@@ -112,65 +154,3 @@ npm run start:dev
 
 > Server running at: `http://localhost:3000`
 
----
-
-## 📌 API Endpoints Overview
-
-**Base URL:** `http://localhost:3000/api/v1`
-
-| HTTP Method | Endpoint | Description |
-| --- | --- | --- |
-| `POST` | `/api/v1/users` | Create a new user record
-
- |
-| `GET` | `/api/v1/users` | Retrieve all user records
-
- |
-| `GET` | `/api/v1/users/:id` | Retrieve a specific user by ID
-
- |
-| `PUT` / `PATCH` | `/api/v1/users/:id` | Update an existing user record
-
- |
-| `DELETE` | `/api/v1/users/:id` | Delete a specific user record
-
- |
-
----
-
-## 🧪 Postman API Test Results & Screenshots
-
-### 1. Create User (`POST /api/v1/users`)
-
-* **Description:** Creates a new user entry in the database.
-
-
-
-
-### 2. Get All Users (`GET /api/v1/users`)
-
-* **Description:** Fetches all recorded users.
-
-
-
-
-### 3. Get Single User (`GET /api/v1/users/:id`)
-
-* **Description:** Fetches a user record by their unique ObjectId.
-
-
-
-
-### 4. Update User (`PUT /api/v1/users/:id`)
-
-* **Description:** Updates existing user properties (e.g., `name`, `age`).
-
-
-
-
-### 5. Delete User (`DELETE /api/v1/users/:id`)
-
-* **Description:** Deletes a user record permanently from the database.
-
-
-# -Express-TypeScript-MongoDB-CRUD-API

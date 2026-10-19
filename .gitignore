@@ -1,0 +1,20 @@
+# Environment variables
+.env
+.env.local
+
+# Vercel local configuration (Do NOT ignore vercel.json)
+.vercel/
+
+# Prisma generated client
+src/generated/
+node_modules/.prisma/
+
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+build/
+
+# Logs
+*.log
