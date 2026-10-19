@@ -13,6 +13,8 @@ A clean, scalable, and production-ready RESTful API boilerplate built using **No
 * **API Testing & Documentation:** Postman
 
 ---
+## 🌐 Live Deployment
+* **Live API URL:** [https://mern-backend-q43ep6ez6-disentra.vercel.app/](https://mern-backend-q43ep6ez6-disentra.vercel.app/)
 
 ## 📂 Project Structure
 
@@ -80,29 +82,24 @@ mernBackend/
 ## 🧪 Postman API Test Results & Screenshots
 
 ### 1. Create User (`POST /api/v1/users`)
-
 * **Description:** Creates a new user entry in the database.
-
+![Create User Output](./assets/post.png)
 
 ### 2. Get All Users (`GET /api/v1/users`)
-
 * **Description:** Fetches all recorded users.
-
+![Get All Users Output](./assets/get%20all%20users.png)
 
 ### 3. Get Single User (`GET /api/v1/users/:id`)
-
 * **Description:** Fetches a user record by their unique ObjectId.
-
+![Get Single User Output](./assets/get%20data%20by%20id.png)
 
 ### 4. Update User (`PATCH /api/v1/users/:id`)
-
 * **Description:** Updates existing user properties (e.g., `name`, `age`).
-
+![Update User Output](./assets/patch.png)
 
 ### 5. Delete User (`DELETE /api/v1/users/:id`)
-
 * **Description:** Deletes a user record permanently from the database.
-
+![Delete User Output](./assets/delete.png)
 
 ---
 
