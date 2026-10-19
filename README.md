@@ -108,7 +108,7 @@ mernBackend/
 ### 1. Repository Setup
 
 ```bash
-git clone <your-repository-url>
+git clone https://github.com/hanjala2P/-Express-TypeScript-MongoDB-CRUD-API.git
 cd mernBackend
 
 ```
